@@ -1,0 +1,15 @@
+*, 
+*::before, 
+*::after{
+
+    box-sizing: border-box;
+}
+
+body{
+    background: white;
+    border: 0;
+    margin: 0 auto;
+    padding: 0;
+    width: 1000px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

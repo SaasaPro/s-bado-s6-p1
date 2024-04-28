@@ -1,0 +1,37 @@
+.noticia{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 10px 10px;
+    border-radius: 20px;
+    border: 1px solid rgba(174, 169, 169, 0.823);
+    padding: 10px;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+
+    &__desc{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        .noticia__link{
+            color: blue;
+        }
+       
+    }
+
+
+
+    &_img{
+        text-align: right;
+    }
+    &__img > img{
+        border-radius: 20px;
+        width: 341px;
+        height: 341px;
+    }
+
+    &:hover{
+        box-shadow: 0 0 50px 0 rgb(78, 78, 78);
+    }
+}
+
